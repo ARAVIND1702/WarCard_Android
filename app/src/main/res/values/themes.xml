@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CardGame" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FF1C6F47</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/splashscreenlogo_foreground</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/frame1</item>
+        <item name="postSplashScreenTheme">@style/Theme.CardGame</item>
+
+    </style>
+</resources>
